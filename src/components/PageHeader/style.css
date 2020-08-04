@@ -41,6 +41,10 @@
   }
 
   @media(min-width: 700px) {
+    .container {
+      max-width: none;
+    }
+    
     .page-header {
       height: 340px;
     }
@@ -55,6 +59,7 @@
       margin: 0 auto;
       padding-bottom: 48px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: flex-start;
     }
